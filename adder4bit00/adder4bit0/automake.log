@@ -1,0 +1,137 @@
+
+synthesis -f "adder4bit00_adder4bit0_lattice.synproj"
+synthesis:  version Diamond (64-bit) 3.10.3.144.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Thu Aug 22 01:11:50 2019
+
+
+Command Line:  synthesis -f adder4bit00_adder4bit0_lattice.synproj -gui -msgset /home/nexus/Code/VHDL/Arquitectura/adder4bit00/promote.xml 
+
+    <postMsg mid="35002000" type="Info"    dynamic="0" navigation="0"  />
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 4.
+The -t option is TQFP144.
+The -d option is LCMXO2-7000HE.
+Using package TQFP144.
+Using performance grade 4.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-7000HE
+
+### Package : TQFP144
+
+### Speed   : 4
+
+##########################################################
+
+                                                          
+
+    <postMsg mid="35001781" type="Info"    dynamic="0" navigation="0"  />
+Optimization goal = Balanced
+Top-level module name = fa00.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p /usr/local/diamond/3.10_x64/ispfpga/xo2c00/data (searchpath added)
+-p /home/nexus/Code/VHDL/Arquitectura/adder4bit00/adder4bit0 (searchpath added)
+-p /home/nexus/Code/VHDL/Arquitectura/adder4bit00 (searchpath added)
+VHDL library = work
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageha00.vhdl
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packagefa00.vhdl
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/fa00.vhdl
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageadder4bit00.vhdl
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl
+NGD file = adder4bit00_adder4bit0.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file /usr/local/diamond/3.10_x64/ispfpga/userware/unix/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+    <postMsg mid="35921504" type="Info"    dynamic="2" navigation="0" arg0="" arg1="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/adder4bit0"  />
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl(6): " arg1="and00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl" arg3="6"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl(14): " arg1="and0" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl" arg3="14"  />
+unit fa00 is not yet analyzed. VHDL-1485
+unit fa00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(6): " arg1="xor00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl" arg3="6"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(14): " arg1="xor0" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl" arg3="14"  />
+unit fa00 is not yet analyzed. VHDL-1485
+unit fa00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl(6): " arg1="or00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl" arg3="6"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl(14): " arg1="or0" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl" arg3="14"  />
+unit fa00 is not yet analyzed. VHDL-1485
+unit fa00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl(6): " arg1="xnor00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl" arg3="6"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl(14): " arg1="xnor0" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl" arg3="14"  />
+unit fa00 is not yet analyzed. VHDL-1485
+unit fa00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageha00.vhdl. VHDL-1481
+    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageha00.vhdl(6): " arg1="packageha00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageha00.vhdl" arg3="6"  />
+unit fa00 is not yet analyzed. VHDL-1485
+unit fa00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl(6): " arg1="ha00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl" arg3="6"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl(16): " arg1="ha0" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl" arg3="16"  />
+unit fa00 is not yet analyzed. VHDL-1485
+unit fa00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packagefa00.vhdl. VHDL-1481
+    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/packagefa00.vhdl(6): " arg1="packagefa00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/packagefa00.vhdl" arg3="6"  />
+unit fa00 is not yet analyzed. VHDL-1485
+unit fa00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/fa00.vhdl. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/fa00.vhdl(6): " arg1="fa00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/fa00.vhdl" arg3="6"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/fa00.vhdl(17): " arg1="fa0" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/fa00.vhdl" arg3="17"  />
+unit fa00 is not yet analyzed. VHDL-1485
+unit fa00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageadder4bit00.vhdl. VHDL-1481
+    <postMsg mid="35921014" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageadder4bit00.vhdl(6): " arg1="packageadder4bit00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageadder4bit00.vhdl" arg3="6"  />
+unit fa00 is not yet analyzed. VHDL-1485
+unit fa00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl. VHDL-1481
+    <postMsg mid="35921012" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl(7): " arg1="topadder4bit00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl" arg3="7"  />
+    <postMsg mid="35921010" type="Info"    dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl(17): " arg1="topadder4bit0" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl" arg3="17"  />
+    <postMsg mid="35929241" type="Error"   dynamic="2" navigation="2" arg0="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl(55): " arg1="topfa00" arg2="/home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl" arg3="55"  />

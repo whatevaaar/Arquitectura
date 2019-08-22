@@ -1,0 +1,48 @@
+Results of NGD DRC are available in topadder4bit00_drc.log.
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'Ai[3]' has no load.
+WARNING - synthesis: input pad net 'Ai[3]' has no legal load.
+WARNING - synthesis: logical net 'Ai[2]' has no load.
+WARNING - synthesis: input pad net 'Ai[2]' has no legal load.
+WARNING - synthesis: logical net 'Ai[1]' has no load.
+WARNING - synthesis: input pad net 'Ai[1]' has no legal load.
+WARNING - synthesis: logical net 'Ai[0]' has no load.
+WARNING - synthesis: input pad net 'Ai[0]' has no legal load.
+WARNING - synthesis: logical net 'Bi[3]' has no load.
+WARNING - synthesis: input pad net 'Bi[3]' has no legal load.
+WARNING - synthesis: logical net 'Bi[2]' has no load.
+WARNING - synthesis: input pad net 'Bi[2]' has no legal load.
+WARNING - synthesis: logical net 'Bi[1]' has no load.
+WARNING - synthesis: input pad net 'Bi[1]' has no legal load.
+WARNING - synthesis: logical net 'Bi[0]' has no load.
+WARNING - synthesis: input pad net 'Bi[0]' has no legal load.
+WARNING - synthesis: logical net 'SL[3]' has no load.
+WARNING - synthesis: input pad net 'SL[3]' has no legal load.
+WARNING - synthesis: logical net 'SL[2]' has no load.
+WARNING - synthesis: input pad net 'SL[2]' has no legal load.
+WARNING - synthesis: logical net 'SL[1]' has no load.
+WARNING - synthesis: input pad net 'SL[1]' has no legal load.
+WARNING - synthesis: logical net 'SL[0]' has no load.
+WARNING - synthesis: input pad net 'SL[0]' has no legal load.
+WARNING - synthesis: logical net 'So[3]' has no load.
+WARNING - synthesis: input pad net 'So[3]' has no legal load.
+WARNING - synthesis: logical net 'So[2]' has no load.
+WARNING - synthesis: input pad net 'So[2]' has no legal load.
+WARNING - synthesis: logical net 'So[1]' has no load.
+WARNING - synthesis: input pad net 'So[1]' has no legal load.
+WARNING - synthesis: logical net 'So[0]' has no load.
+WARNING - synthesis: input pad net 'So[0]' has no legal load.
+WARNING - synthesis: DRC complete with 32 warnings.
+
+Design Results:
+      8 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file adder4bit00_adder4bit0.ngd.

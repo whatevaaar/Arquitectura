@@ -1,0 +1,6 @@
+#Start recording tcl command: 8/22/2019 00:09:28
+#Project Location: /home/nexus/Code/VHDL/Arquitectura/adder4bit00; Project name: adder4bit00
+prj_project new -name "adder4bit00" -impl "adder4bit0" -dev LCMXO2-7000HE-4TG144C -synthesis "lse"
+prj_project save
+prj_project close
+#Stop recording: 8/22/2019 00:10:27

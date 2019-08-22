@@ -1,0 +1,33 @@
+Results of NGD DRC are available in not00_drc.log.
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'Bnot[7]' has no load.
+WARNING - synthesis: input pad net 'Bnot[7]' has no legal load.
+WARNING - synthesis: logical net 'Bnot[6]' has no load.
+WARNING - synthesis: input pad net 'Bnot[6]' has no legal load.
+WARNING - synthesis: logical net 'Bnot[5]' has no load.
+WARNING - synthesis: input pad net 'Bnot[5]' has no legal load.
+WARNING - synthesis: logical net 'Bnot[4]' has no load.
+WARNING - synthesis: input pad net 'Bnot[4]' has no legal load.
+WARNING - synthesis: logical net 'Bnot[3]' has no load.
+WARNING - synthesis: input pad net 'Bnot[3]' has no legal load.
+WARNING - synthesis: logical net 'Bnot[2]' has no load.
+WARNING - synthesis: input pad net 'Bnot[2]' has no legal load.
+WARNING - synthesis: logical net 'Bnot[1]' has no load.
+WARNING - synthesis: input pad net 'Bnot[1]' has no legal load.
+WARNING - synthesis: logical net 'Bnot[0]' has no load.
+WARNING - synthesis: input pad net 'Bnot[0]' has no legal load.
+WARNING - synthesis: logical net 'GND_net' has no load.
+WARNING - synthesis: DRC complete with 17 warnings.
+
+Design Results:
+     28 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file mux00_mux0.ngd.

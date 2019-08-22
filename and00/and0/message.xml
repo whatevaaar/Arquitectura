@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>/home/nexus/Code/VHDL/Arquitectura/and00/and0</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>/home/nexus/Code/VHDL/Arquitectura/and00/and00.vhdl(6): </Dynamic>
+            <Dynamic>and00</Dynamic>
+            <Navigation>/home/nexus/Code/VHDL/Arquitectura/and00/and00.vhdl</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>/home/nexus/Code/VHDL/Arquitectura/and00/and00.vhdl(14): </Dynamic>
+            <Dynamic>and0</Dynamic>
+            <Navigation>/home/nexus/Code/VHDL/Arquitectura/and00/and00.vhdl</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/home/nexus/Code/VHDL/Arquitectura/and00/and00.vhdl(12): </Dynamic>
+            <Dynamic>and00</Dynamic>
+            <Dynamic>and0</Dynamic>
+            <Navigation>/home/nexus/Code/VHDL/Arquitectura/and00/and00.vhdl</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GND_net</Dynamic>
+            <Navigation>GND_net</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

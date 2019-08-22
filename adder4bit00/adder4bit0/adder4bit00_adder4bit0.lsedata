@@ -1,0 +1,62 @@
+<top name = "topadder4bit00"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "topadder4bit00">
+
+    <!--
+        Top Level Pins: 20
+    -->
+
+    <pins>
+        <pitem  name = "Ai[3]"  direction = "in"  />
+        <pitem  name = "Ai[2]"  direction = "in"  />
+        <pitem  name = "Ai[1]"  direction = "in"  />
+        <pitem  name = "Ai[0]"  direction = "in"  />
+        <pitem  name = "Bi[3]"  direction = "in"  />
+        <pitem  name = "Bi[2]"  direction = "in"  />
+        <pitem  name = "Bi[1]"  direction = "in"  />
+        <pitem  name = "Bi[0]"  direction = "in"  />
+        <pitem  name = "SL[3]"  direction = "in"  />
+        <pitem  name = "SL[2]"  direction = "in"  />
+        <pitem  name = "SL[1]"  direction = "in"  />
+        <pitem  name = "SL[0]"  direction = "in"  />
+        <pitem  name = "So[3]"  direction = "in"  />
+        <pitem  name = "So[2]"  direction = "in"  />
+        <pitem  name = "So[1]"  direction = "in"  />
+        <pitem  name = "So[0]"  direction = "in"  />
+        <pitem  name = "LED[3]"  direction = "out"  />
+        <pitem  name = "LED[2]"  direction = "out"  />
+        <pitem  name = "LED[1]"  direction = "out"  />
+        <pitem  name = "LED[0]"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 0
+    -->
+
+    <!--
+        Views in design "topadder4bit00": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>
