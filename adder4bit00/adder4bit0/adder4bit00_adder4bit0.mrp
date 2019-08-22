@@ -15,7 +15,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.3.144.3
-Mapped on:  08/22/19  01:04:03
+Mapped on:  08/22/19  08:40:46
 
 Design Summary
 --------------
@@ -23,16 +23,16 @@ Design Summary
    Number of registers:      0 out of  7209 (0%)
       PFU registers:            0 out of  6864 (0%)
       PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:         1 out of  3432 (0%)
-      SLICEs as Logic/ROM:      1 out of  3432 (0%)
+   Number of SLICEs:         6 out of  3432 (0%)
+      SLICEs as Logic/ROM:      6 out of  3432 (0%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:          0 out of  3432 (0%)
-   Number of LUT4s:          1 out of  6864 (0%)
-      Number used as logic LUTs:          1
+   Number of LUT4s:         12 out of  6864 (0%)
+      Number used as logic LUTs:         12
       Number used as distributed RAM:     0
       Number used as ripple logic:        0
       Number used as shift registers:     0
-   Number of PIO sites used: 4 + 4(JTAG) out of 115 (7%)
+   Number of PIO sites used: 14 + 4(JTAG) out of 115 (16%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:  0 out of 1 (0%)
    EFB used :       No
@@ -66,81 +66,34 @@ Design Summary
 
 
 
-Design:  topadder4bit00                                Date:  08/22/19  01:04:03
+Design:  topadder4bit00                                Date:  08/22/19  08:40:46
 
 Design Summary (cont)
 ---------------------
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
+     Net SL_c: 10 loads
+     Net SC_2: 5 loads
+     Net Ai_c_3: 3 loads
+     Net Bi_c_3: 3 loads
+     Net Ai_c_0: 2 loads
+     Net Ai_c_1: 2 loads
+     Net Ai_c_2: 2 loads
+     Net Bi_c_0: 2 loads
+     Net Bi_c_1: 2 loads
+     Net Bi_c_2: 2 loads
 
 
 
 
-   Number of warnings:  32
+   Number of warnings:  0
    Number of errors:    0
      
 
 Design Errors/Warnings
 ----------------------
 
-WARNING - map: input pad net 'Ai[3]' has no legal load.
-WARNING - map: input pad net 'Ai[2]' has no legal load.
-WARNING - map: input pad net 'Ai[1]' has no legal load.
-WARNING - map: input pad net 'Ai[0]' has no legal load.
-WARNING - map: input pad net 'Bi[3]' has no legal load.
-WARNING - map: input pad net 'Bi[2]' has no legal load.
-WARNING - map: input pad net 'Bi[1]' has no legal load.
-WARNING - map: input pad net 'Bi[0]' has no legal load.
-WARNING - map: input pad net 'SL[3]' has no legal load.
-WARNING - map: input pad net 'SL[2]' has no legal load.
-WARNING - map: input pad net 'SL[1]' has no legal load.
-WARNING - map: input pad net 'SL[0]' has no legal load.
-WARNING - map: input pad net 'So[3]' has no legal load.
-WARNING - map: input pad net 'So[2]' has no legal load.
-WARNING - map: input pad net 'So[1]' has no legal load.
-WARNING - map: input pad net 'So[0]' has no legal load.
-WARNING - map: IO buffer missing for top level port Ai[3:0](3)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port Ai[3:0](2)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port Ai[3:0](1)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port Ai[3:0](0)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port Bi[3:0](3)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port Bi[3:0](2)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port Bi[3:0](1)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port Bi[3:0](0)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port SL[3:0](3)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port SL[3:0](2)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port SL[3:0](1)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port SL[3:0](0)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port So[3:0](3)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port So[3:0](2)...logic will be
-
-                                    Page 2
-
-
-
-
-Design:  topadder4bit00                                Date:  08/22/19  01:04:03
-
-Design Errors/Warnings (cont)
------------------------------
-     discarded.
-WARNING - map: IO buffer missing for top level port So[3:0](1)...logic will be
-     discarded.
-WARNING - map: IO buffer missing for top level port So[3:0](0)...logic will be
-     discarded.
+   No errors or warnings present.
 
 IO (PIO) Attributes
 -------------------
@@ -149,21 +102,53 @@ IO (PIO) Attributes
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
-| LED[3]              | OUTPUT    | LVCMOS25  |            |
+| SL                  | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| LED[2]              | OUTPUT    | LVCMOS25  |            |
+| Bi[0]               | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| LED[1]              | OUTPUT    | LVCMOS25  |            |
+| Bi[1]               | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| LED[0]              | OUTPUT    | LVCMOS25  |            |
+| Bi[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bi[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Ai[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Ai[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Ai[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Ai[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| So[0]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| So[1]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  topadder4bit00                                Date:  08/22/19  08:40:46
+
+IO (PIO) Attributes (cont)
+--------------------------
+| So[2]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| So[3]               | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 
 Removed logic
 -------------
 
-Block i12 undriven or does not drive anything - clipped.
+Block i66 undriven or does not drive anything - clipped.
 Block GSR_INST undriven or does not drive anything - clipped.
+Block i65 undriven or does not drive anything - clipped.
 Signal VCC_net undriven or does not drive anything - clipped.
+Signal GND_net undriven or does not drive anything - clipped.
 
 Memory Usage
 ------------
@@ -176,8 +161,23 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 154 MB
+   Peak Memory Usage: 182 MB
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

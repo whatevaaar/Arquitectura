@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Aug 22 01:11:50 2019
+Thu Aug 22 08:26:21 2019
 
 
 Command Line:  synthesis -f adder4bit00_adder4bit0_lattice.synproj -gui -msgset /home/nexus/Code/VHDL/Arquitectura/adder4bit00/promote.xml 
@@ -35,7 +35,7 @@ Using performance grade 4.
 
 INFO - synthesis: User-Selected Strategy Settings
 Optimization goal = Balanced
-Top-level module name = fa00.
+Top-level module name = topadder4bit00.
 Target frequency = 200.000000 MHz.
 Maximum fanout = 1000.
 Timing path count = 3
@@ -89,17 +89,113 @@ INFO - synthesis: The default VHDL library search path is now "/home/nexus/Code/
 Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl. VHDL-1481
 INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl(6): analyzing entity and00. VHDL-1012
 INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl(14): analyzing architecture and0. VHDL-1010
-unit fa00 is not yet analyzed. VHDL-1485
-unit fa00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl. VHDL-1481
 INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(6): analyzing entity xor00. VHDL-1012
 INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(14): analyzing architecture xor0. VHDL-1010
-unit fa00 is not yet analyzed. VHDL-1485
-unit fa00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl. VHDL-1481
 INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl(6): analyzing entity or00. VHDL-1012
 INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl(14): analyzing architecture or0. VHDL-1010
-unit fa00 is not yet analyzed. VHDL-1485
-unit fa00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl. VHDL-1481
-INFO - synthesis: /home/nexus/Code/VHDL/Arqu
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl(6): analyzing entity xnor00. VHDL-1012
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl(14): analyzing architecture xnor0. VHDL-1010
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageha00.vhdl. VHDL-1481
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageha00.vhdl(6): analyzing package packageha00. VHDL-1014
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl. VHDL-1481
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl(6): analyzing entity ha00. VHDL-1012
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl(16): analyzing architecture ha0. VHDL-1010
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packagefa00.vhdl. VHDL-1481
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packagefa00.vhdl(6): analyzing package packagefa00. VHDL-1014
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/fa00.vhdl. VHDL-1481
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/fa00.vhdl(6): analyzing entity fa00. VHDL-1012
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/fa00.vhdl(17): analyzing architecture fa0. VHDL-1010
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageadder4bit00.vhdl. VHDL-1481
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageadder4bit00.vhdl(6): analyzing package packageadder4bit00. VHDL-1014
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl. VHDL-1481
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl(7): analyzing entity topadder4bit00. VHDL-1012
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl(17): analyzing architecture topadder4bit0. VHDL-1010
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+/home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl(7): executing topadder4bit00(topadder4bit0)
+
+WARNING - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl(15): replacing existing netlist topadder4bit00(topadder4bit0). VHDL-1205
+Top module name (VHDL): topadder4bit00
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c7000.nph' in environment: /usr/local/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Top-level module name = topadder4bit00.
+
+
+
+GSR will not be inferred because no asynchronous signal was found in the netlist.
+Applying 200.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in topadder4bit00_drc.log.
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library '/usr/local/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+WARNING - synthesis: logical net 'GND_net' has no load.
+WARNING - synthesis: DRC complete with 1 warnings.
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file adder4bit00_adder4bit0.ngd.
+
+################### Begin Area Report (topadder4bit00)######################
+Number of register bits => 0 of 7209 (0 % )
+GSR => 1
+IB => 9
+LUT4 => 12
+OB => 5
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 0
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : SL_c, loads : 10
+  Net : A03/SC_2, loads : 4
+  Net : Ai_c_3, loads : 3
+  Net : Bi_c_3, loads : 3
+  Net : Ai_c_2, loads : 2
+  Net : Ai_c_1, loads : 2
+  Net : Ai_c_0, loads : 2
+  Net : Bi_c_2, loads : 2
+  Net : Bi_c_1, loads : 2
+  Net : Bi_c_0, loads : 2
+################### End Clock Report ##################
+
+Peak Memory Usage: 197.492  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.421  secs
+--------------------------------------------------------------

@@ -3,6 +3,74 @@ Report for cell topadder4bit00
    Instance path: topadder4bit00
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       1.00        100.0
-                                  LUT4	       1.00        100.0
-                                 IOBUF	          4        100.0
+                                  SLIC	       6.00        100.0
+                                  LUT4	      12.00        100.0
+                                 IOBUF	         14        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                xnor00	          1        16.7
+                              xor00_U1	          1        16.7
+                              xor00_U2	          1         8.3
+                                 xor00	          1        25.0
+                              xor00_U0	          1        16.7
+                                 and00	          1         8.3
+                                  fa00	          1         8.3
+---------------------------------------------------
+Report for cell xnor00
+   Instance path: topadder4bit00/A10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        16.7
+                                  LUT4	       2.00        16.7
+---------------------------------------------------
+Report for cell fa00
+   Instance path: topadder4bit00/A05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         8.3
+                                  LUT4	       1.00         8.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                  or00	          1         8.3
+---------------------------------------------------
+Report for cell or00
+   Instance path: topadder4bit00/A05/FA02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         8.3
+                                  LUT4	       1.00         8.3
+---------------------------------------------------
+Report for cell and00
+   Instance path: topadder4bit00/A13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         8.3
+                                  LUT4	       1.00         8.3
+---------------------------------------------------
+Report for cell xor00_U1
+   Instance path: topadder4bit00/A02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        16.7
+                                  LUT4	       2.00        16.7
+---------------------------------------------------
+Report for cell xor00_U2
+   Instance path: topadder4bit00/A01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         8.3
+                                  LUT4	       1.00         8.3
+---------------------------------------------------
+Report for cell xor00_U0
+   Instance path: topadder4bit00/A03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        16.7
+                                  LUT4	       2.00        16.7
+---------------------------------------------------
+Report for cell xor00
+   Instance path: topadder4bit00/A04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.50        25.0
+                                  LUT4	       3.00        25.0

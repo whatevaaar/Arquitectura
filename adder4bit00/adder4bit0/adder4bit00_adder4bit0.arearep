@@ -1,9 +1,79 @@
 ----------------------------------------------------------------------
 Report for cell topadder4bit00.TECH
 Register bits:  0 of 7209 (0.000%)
-I/O cells:      4
+I/O cells:      14
                                   Cell usage:
                                cell     count   Res Usage(%)
                                 GSR         1          100.0
-                                 OB         4          100.0
-                              TOTAL         5
+                                 IB         9          100.0
+                               LUT4        12          100.0
+                                 OB         5          100.0
+                        VERIFIC_PWR         1          100.0
+SUB MODULES
+                              and00         1
+                               fa00         1
+                               or00         1
+                             xnor00         1
+                              xor00         1
+                           xor00_U0         1
+                           xor00_U1         1
+                           xor00_U2         1
+                              TOTAL        36
+----------------------------------------------------------------------
+Report for cell xnor00.v1
+Instance Path : A10
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2           16.7
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell fa00.v1
+Instance Path : A05
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            8.3
+SUB MODULES
+                               or00         1
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell or00.v1
+Instance Path : A05.FA02
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            8.3
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell and00.v1
+Instance Path : A13
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            8.3
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell xor00_U1.v1
+Instance Path : A02
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2           16.7
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell xor00_U2.v1
+Instance Path : A01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            8.3
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell xor00_U0.v1
+Instance Path : A03
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2           16.7
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell xor00.v1
+Instance Path : A04
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         3           25.0
+                              TOTAL         3

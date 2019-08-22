@@ -40,7 +40,7 @@
 "/home/nexus/Code/VHDL/Arquitectura/adder4bit00/fa00.vhdl"
 "/home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageadder4bit00.vhdl"
 "/home/nexus/Code/VHDL/Arquitectura/adder4bit00/topadder4bit00.vhdl"
--top fa00
+-top topadder4bit00
 
 
 -p "/usr/local/diamond/3.10_x64/ispfpga/xo2c00/data" "/home/nexus/Code/VHDL/Arquitectura/adder4bit00/adder4bit0" "/home/nexus/Code/VHDL/Arquitectura/adder4bit00"

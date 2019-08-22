@@ -18,7 +18,7 @@
 <unit name = "topadder4bit00">
 
     <!--
-        Top Level Pins: 20
+        Top Level Pins: 14
     -->
 
     <pins>
@@ -30,29 +30,468 @@
         <pitem  name = "Bi[2]"  direction = "in"  />
         <pitem  name = "Bi[1]"  direction = "in"  />
         <pitem  name = "Bi[0]"  direction = "in"  />
-        <pitem  name = "SL[3]"  direction = "in"  />
-        <pitem  name = "SL[2]"  direction = "in"  />
-        <pitem  name = "SL[1]"  direction = "in"  />
-        <pitem  name = "SL[0]"  direction = "in"  />
-        <pitem  name = "So[3]"  direction = "in"  />
-        <pitem  name = "So[2]"  direction = "in"  />
-        <pitem  name = "So[1]"  direction = "in"  />
-        <pitem  name = "So[0]"  direction = "in"  />
-        <pitem  name = "LED[3]"  direction = "out"  />
-        <pitem  name = "LED[2]"  direction = "out"  />
-        <pitem  name = "LED[1]"  direction = "out"  />
-        <pitem  name = "LED[0]"  direction = "out"  />
+        <pitem  name = "SL"  direction = "in"  />
+        <pitem  name = "So[3]"  direction = "out"  />
+        <pitem  name = "So[2]"  direction = "out"  />
+        <pitem  name = "So[1]"  direction = "out"  />
+        <pitem  name = "So[0]"  direction = "out"  />
+        <pitem  name = "LED"  direction = "out"  />
     </pins>
 
     <!--
-        Instances in netlist: 0
+        Instances in netlist: 49
     -->
 
+    <instance  name = "A05/FA02/Ao_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "A05/Cint2"  />
+        <nitem  name = "A05/Cint1"  />
+        <nitem  name = "SC[0]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A05/FA00/HA00/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ai[0]"  />
+        <nitem  name = "SB[0]"  />
+        <nitem  name = "A05/Cint1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A06/FA00/HA00/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ai[1]"  />
+        <nitem  name = "SB[1]"  />
+        <nitem  name = "A06/Cint1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A01/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SL"  />
+        <nitem  name = "Bi[0]"  />
+        <nitem  name = "SB[0]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A02/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SL"  />
+        <nitem  name = "Bi[1]"  />
+        <nitem  name = "SB[1]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A03/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SL"  />
+        <nitem  name = "Bi[2]"  />
+        <nitem  name = "SB[2]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A04/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SL"  />
+        <nitem  name = "Bi[3]"  />
+        <nitem  name = "SB[3]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A07/FA00/HA00/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ai[2]"  />
+        <nitem  name = "SB[2]"  />
+        <nitem  name = "A07/Cint1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A08/FA00/HA00/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ai[3]"  />
+        <nitem  name = "SB[3]"  />
+        <nitem  name = "A08/Cint1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A07/FA01/HA00/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SC[1]"  />
+        <nitem  name = "A07/Sint1"  />
+        <nitem  name = "A07/Cint2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A09/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SC[3]"  />
+        <nitem  name = "SC[2]"  />
+        <nitem  name = "LED"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A10/Axn_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SC[3]"  />
+        <nitem  name = "SC[2]"  />
+        <nitem  name = "SYx"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A11/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SYx"  />
+        <nitem  name = "SA[0]"  />
+        <nitem  name = "So[0]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A12/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SYx"  />
+        <nitem  name = "SA[1]"  />
+        <nitem  name = "So[1]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A13/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SYx"  />
+        <nitem  name = "SA[2]"  />
+        <nitem  name = "So[2]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A14/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SYx"  />
+        <nitem  name = "SA[3]"  />
+        <nitem  name = "So[3]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A06/FA02/Ao_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "A06/Cint2"  />
+        <nitem  name = "A06/Cint1"  />
+        <nitem  name = "SC[1]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A08/FA01/HA00/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SC[2]"  />
+        <nitem  name = "A08/Sint1"  />
+        <nitem  name = "A08/Cint2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A07/FA02/Ao_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "A07/Cint2"  />
+        <nitem  name = "A07/Cint1"  />
+        <nitem  name = "SC[2]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A06/FA01/HA00/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SC[0]"  />
+        <nitem  name = "A06/Sint1"  />
+        <nitem  name = "A06/Cint2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A08/FA02/Ao_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "A08/Cint2"  />
+        <nitem  name = "A08/Cint1"  />
+        <nitem  name = "SC[3]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A07/FA01/HA01/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SC[1]"  />
+        <nitem  name = "A07/Sint1"  />
+        <nitem  name = "SA[2]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A08/FA01/HA01/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SC[2]"  />
+        <nitem  name = "A08/Sint1"  />
+        <nitem  name = "SA[3]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A06/FA01/HA01/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SC[0]"  />
+        <nitem  name = "A06/Sint1"  />
+        <nitem  name = "SA[1]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A05/FA01/HA01/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SL"  />
+        <nitem  name = "A05/Sint1"  />
+        <nitem  name = "SA[0]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A05/FA00/HA01/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ai[0]"  />
+        <nitem  name = "SB[0]"  />
+        <nitem  name = "A05/Sint1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A06/FA00/HA01/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ai[1]"  />
+        <nitem  name = "SB[1]"  />
+        <nitem  name = "A06/Sint1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A07/FA00/HA01/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ai[2]"  />
+        <nitem  name = "SB[2]"  />
+        <nitem  name = "A07/Sint1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A08/FA00/HA01/Ax_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ai[3]"  />
+        <nitem  name = "SB[3]"  />
+        <nitem  name = "A08/Sint1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A05/FA01/HA00/Aa_I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "SL"  />
+        <nitem  name = "A05/Sint1"  />
+        <nitem  name = "A05/Cint2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "A01"  />
+    <instance  name = "A02"  />
+    <instance  name = "A03"  />
+    <instance  name = "A04"  />
+    <instance  name = "A05"  />
+    <instance  name = "A06"  />
+    <instance  name = "A07"  />
+    <instance  name = "A08"  />
+    <instance  name = "A09"  />
+    <instance  name = "A10"  />
+    <instance  name = "A11"  />
+    <instance  name = "A12"  />
+    <instance  name = "A13"  />
+    <instance  name = "A14"  />
+    <instance  name = "FA00"  />
+    <instance  name = "FA01"  />
+    <instance  name = "FA02"  />
+    <instance  name = "HA00"  />
+    <instance  name = "HA01"  />
     <!--
-        Views in design "topadder4bit00": 0
+        Views in design "topadder4bit00": 6
     -->
 
     <views>
+        <view  name = "and00"  />
+        <view  name = "fa00"  />
+        <view  name = "ha00"  />
+        <view  name = "or00"  />
+        <view  name = "xnor00"  />
+        <view  name = "xor00"  />
     </views>
 
 </unit>
