@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BaliProject version="3.2" title="mult4bit00" device="LCMXO2-7000HE-5FG484C" default_implementation="mult4bit0">
+<BaliProject version="3.2" title="mult4bit00" device="LCMXO2-7000HE-5TG144C" default_implementation="mult4bit0">
     <Options/>
     <Implementation title="mult4bit0" dir="mult4bit0" description="mult4bit0" synthesis="lse" default_strategy="Strategy1">
-        <Options def_top="fa00"/>
+        <Options def_top="mult4bit00"/>
         <Source name="../fa00VHDL/and00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
@@ -22,12 +22,15 @@
             <Options/>
         </Source>
         <Source name="../fa00VHDL/fa00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="fa00"/>
+            <Options/>
         </Source>
         <Source name="packagemult4bit00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
         <Source name="mult4bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="mult4bit00"/>
+        </Source>
+        <Source name="mult4bit0/mult4bit0.xcf" type="Programming Project File" type_short="Programming">
             <Options/>
         </Source>
         <Source name="mult4bit00.lpf" type="Logic Preference" type_short="LPF">

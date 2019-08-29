@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "/home/nexus/Code/VHDL/Arquitectura/mult4bit00"  

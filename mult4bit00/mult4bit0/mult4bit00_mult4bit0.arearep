@@ -1,0 +1,309 @@
+----------------------------------------------------------------------
+Report for cell mult4bit00.TECH
+Register bits:  0 of 7209 (0.000%)
+I/O cells:      16
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                GSR         1          100.0
+                                 IB         8          100.0
+                               LUT4        32          100.0
+                                 OB         8          100.0
+                              PFUMX         2          100.0
+                        VERIFIC_PWR         1          100.0
+SUB MODULES
+                              and00         1
+                          and00_U10         1
+                          and00_U11         1
+                          and00_U12         1
+                          and00_U13         1
+                          and00_U16         1
+                          and00_U17         1
+                          and00_U18         1
+                          and00_U22         1
+                          and00_U23         1
+                          and00_U24         1
+                          and00_U25         1
+                          and00_U26         1
+                               fa00         1
+                           fa00_U14         1
+                           fa00_U15         1
+                           fa00_U19         1
+                           fa00_U20         1
+                           fa00_U21         1
+                               ha00         1
+                            ha00_U5         1
+                            ha00_U6         1
+                            ha00_U7         1
+                            ha00_U8         1
+                            ha00_U9         1
+                               or00         1
+                              xor00         1
+                           xor00_U0         1
+                           xor00_U1         1
+                           xor00_U2         1
+                           xor00_U3         1
+                           xor00_U4         1
+                              TOTAL        84
+----------------------------------------------------------------------
+Report for cell and00_U22.v1
+Instance Path : MU07
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         3            9.4
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell and00_U25.v1
+Instance Path : MU01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell and00_U23.v1
+Instance Path : MU06
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell fa00_U14.v1
+Instance Path : MU18
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+SUB MODULES
+                            ha00_U5         1
+                           xor00_U0         1
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell ha00_U5.v1
+Instance Path : MU18.FA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+SUB MODULES
+                           xor00_U0         1
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell xor00_U0.v1
+Instance Path : MU18.FA01.HA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell and00_U13.v1
+Instance Path : MU20
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell and00_U17.v1
+Instance Path : MU13
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell and00_U12.v1
+Instance Path : MU21
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell fa00_U21.v1
+Instance Path : MU09
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         4           12.5
+                              PFUMX         1           50.0
+SUB MODULES
+                            ha00_U9         1
+                               or00         1
+                           xor00_U4         1
+                              TOTAL         8
+----------------------------------------------------------------------
+Report for cell or00.v1
+Instance Path : MU09.FA02
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell ha00_U9.v1
+Instance Path : MU09.FA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              PFUMX         1           50.0
+SUB MODULES
+                           xor00_U4         1
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell xor00_U4.v1
+Instance Path : MU09.FA01.HA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              PFUMX         1           50.0
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell and00_U10.v1
+Instance Path : MU23
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell and00_U16.v1
+Instance Path : MU14
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell fa00.v1
+Instance Path : MU19
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+SUB MODULES
+                               ha00         1
+                              xor00         1
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell ha00.v1
+Instance Path : MU19.FA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+SUB MODULES
+                              xor00         1
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell xor00.v1
+Instance Path : MU19.FA01.HA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell fa00_U20.v1
+Instance Path : MU10
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+SUB MODULES
+                            ha00_U8         1
+                           xor00_U3         1
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell ha00_U8.v1
+Instance Path : MU10.FA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+SUB MODULES
+                           xor00_U3         1
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell xor00_U3.v1
+Instance Path : MU10.FA01.HA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell and00_U24.v1
+Instance Path : MU03
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell and00_U18.v1
+Instance Path : MU12
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell and00_U11.v1
+Instance Path : MU22
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell and00_U26.v1
+Instance Path : MU00
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell fa00_U19.v1
+Instance Path : MU11
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         3            9.4
+                              PFUMX         1           50.0
+SUB MODULES
+                              and00         1
+                            ha00_U7         1
+                           xor00_U2         1
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell ha00_U7.v1
+Instance Path : MU11.FA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         3            9.4
+                              PFUMX         1           50.0
+SUB MODULES
+                              and00         1
+                           xor00_U2         1
+                              TOTAL         6
+----------------------------------------------------------------------
+Report for cell xor00_U2.v1
+Instance Path : MU11.FA01.HA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            3.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell and00.v1
+Instance Path : MU11.FA01.HA00
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              PFUMX         1           50.0
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell fa00_U15.v1
+Instance Path : MU17
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+SUB MODULES
+                            ha00_U6         1
+                           xor00_U1         1
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell ha00_U6.v1
+Instance Path : MU17.FA00
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+SUB MODULES
+                           xor00_U1         1
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell xor00_U1.v1
+Instance Path : MU17.FA00.HA01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            6.2
+                              TOTAL         2
