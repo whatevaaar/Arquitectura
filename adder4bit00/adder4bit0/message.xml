@@ -34,22 +34,6 @@
         <Message>
             <ID>35921012</ID>
             <Severity>Info</Severity>
-            <Dynamic>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(6): </Dynamic>
-            <Dynamic>xor00</Dynamic>
-            <Navigation>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl</Navigation>
-            <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35921010</ID>
-            <Severity>Info</Severity>
-            <Dynamic>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(14): </Dynamic>
-            <Dynamic>xor0</Dynamic>
-            <Navigation>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl</Navigation>
-            <Navigation>14</Navigation>
-        </Message>
-        <Message>
-            <ID>35921012</ID>
-            <Severity>Info</Severity>
             <Dynamic>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl(6): </Dynamic>
             <Dynamic>or00</Dynamic>
             <Navigation>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl</Navigation>
@@ -61,6 +45,22 @@
             <Dynamic>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl(14): </Dynamic>
             <Dynamic>or0</Dynamic>
             <Navigation>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(6): </Dynamic>
+            <Dynamic>xor00</Dynamic>
+            <Navigation>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(14): </Dynamic>
+            <Dynamic>xor0</Dynamic>
+            <Navigation>/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl</Navigation>
             <Navigation>14</Navigation>
         </Message>
         <Message>

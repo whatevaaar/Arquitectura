@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Aug 22 08:26:21 2019
+Thu Aug 22 11:05:14 2019
 
 
 Command Line:  synthesis -f adder4bit00_adder4bit0_lattice.synproj -gui -msgset /home/nexus/Code/VHDL/Arquitectura/adder4bit00/promote.xml 
@@ -66,8 +66,8 @@ The -syn option is FALSE.
 -p /home/nexus/Code/VHDL/Arquitectura/adder4bit00 (searchpath added)
 VHDL library = work
 VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl
-VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl
 VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl
+VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl
 VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl
 VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageha00.vhdl
 VHDL design file = /home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl
@@ -91,14 +91,14 @@ INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl(6): 
 INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl(14): analyzing architecture and0. VHDL-1010
 unit topadder4bit00 is not yet analyzed. VHDL-1485
 unit topadder4bit00 is not yet analyzed. VHDL-1485
-Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl. VHDL-1481
-INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(6): analyzing entity xor00. VHDL-1012
-INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(14): analyzing architecture xor0. VHDL-1010
-unit topadder4bit00 is not yet analyzed. VHDL-1485
-unit topadder4bit00 is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl. VHDL-1481
 INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl(6): analyzing entity or00. VHDL-1012
 INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl(14): analyzing architecture or0. VHDL-1010
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+unit topadder4bit00 is not yet analyzed. VHDL-1485
+Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl. VHDL-1481
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(6): analyzing entity xor00. VHDL-1012
+INFO - synthesis: /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl(14): analyzing architecture xor0. VHDL-1010
 unit topadder4bit00 is not yet analyzed. VHDL-1485
 unit topadder4bit00 is not yet analyzed. VHDL-1485
 Analyzing VHDL file /home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl. VHDL-1481
@@ -197,5 +197,5 @@ Top 10 highest fanout non-clock nets:
 Peak Memory Usage: 197.492  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 0.421  secs
+Elapsed CPU time for LSE flow : 0.456  secs
 --------------------------------------------------------------

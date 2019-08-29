@@ -1,0 +1,8 @@
+#Start recording tcl command: 8/26/2019 10:58:03
+#Project Location: /home/nexus/Code/VHDL/Arquitectura/adder8bit00; Project name: adder8bit00
+prj_project new -name "adder8bit00" -impl "adder8bit0" -dev LCMXO2-7000HE-4TG144C -synthesis "lse"
+prj_src add "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/and00.vhdl" "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/fa00.vhdl" "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/ha00.vhdl" "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/or00.vhdl" "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/package4bitadder00.vhdl" "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/packageadder4bit00.vhdl" "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/packagefa00.vhdl" "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/packageha00.vhdl" "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/topadder4bit00.vhdl" "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/xnor.vhdl" "/home/nexus/Code/VHDL/Arquitectura/adder8bit00/xor00.vhdl"
+prj_project save
+prj_project save
+prj_project close
+#Stop recording: 8/26/2019 11:08:55

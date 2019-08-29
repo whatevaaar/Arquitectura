@@ -6,10 +6,10 @@
         <Source name="and00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
-        <Source name="xor00.vhdl" type="VHDL" type_short="VHDL">
+        <Source name="or00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
-        <Source name="or00.vhdl" type="VHDL" type_short="VHDL">
+        <Source name="xor00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
         <Source name="xnor.vhdl" type="VHDL" type_short="VHDL">

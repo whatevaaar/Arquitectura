@@ -31,8 +31,8 @@
 
 -lpf 1
 -lib "work" -vhd "/home/nexus/Code/VHDL/Arquitectura/adder4bit00/and00.vhdl"
-"/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl"
 "/home/nexus/Code/VHDL/Arquitectura/adder4bit00/or00.vhdl"
+"/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xor00.vhdl"
 "/home/nexus/Code/VHDL/Arquitectura/adder4bit00/xnor.vhdl"
 "/home/nexus/Code/VHDL/Arquitectura/adder4bit00/packageha00.vhdl"
 "/home/nexus/Code/VHDL/Arquitectura/adder4bit00/ha00.vhdl"
